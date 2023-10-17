@@ -17,7 +17,6 @@ def solve_cryptarithmetic(puzzle):
 
     return "No solution found"
 
-puzzle = "SEND + MORE = MONEY"
-print("SEND + MORE = MONEY")
+puzzle = input("Puzzle:")
 solution = solve_cryptarithmetic(puzzle)
 print(solution)
